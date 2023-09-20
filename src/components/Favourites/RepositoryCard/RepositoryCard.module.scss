@@ -1,0 +1,23 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 92px;
+  max-width: 220px;
+}
+
+.cardHeader {
+  word-break: break-word;
+  background-color: #1976d2b3;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.cardContent {
+  max-height: 100px;
+  overflow-y: auto;
+}
+
+.cardActions {
+  justify-content: center;
+}
