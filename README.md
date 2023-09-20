@@ -28,4 +28,12 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 Sometimes Graphql API is returning duplicated items for different pages using cursor pagination.
 
+Before running the project you need to create a personal token to access GitHub API:
+https://github.com/settings/tokens
+Create a token with "Access public repositories"
+
+Copy your token to REACT_APP_GITHUB_ACCESS_TOKEN in '.env'
+
+After that you are good to run the project.
+
 To run the project, just run 'nvm use' in the terminal in the root of the project and then 'npm start'
